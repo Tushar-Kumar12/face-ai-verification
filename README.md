@@ -183,26 +183,3 @@ Give a ⭐ if you like this project
 
 ---
 
-# 📌 README add karne ka tareeka
-
-1. Project folder open karo  
-2. `README.md` file banao  
-3. Ye content paste karo  
-4. Save karo  
-5. Git push karo ✔
-
----
-
-# 🔥 Extra (Optional)
-
-Agar chaho main:
-
-✔ Postman example  
-✔ Curl example  
-✔ Production deploy guide  
-✔ Docker support  
-
-bhi add kar sakta hoon 😎
-
-Bolo bhai next kya improve kare?
-```
