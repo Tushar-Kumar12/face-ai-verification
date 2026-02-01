@@ -53,7 +53,7 @@ def url_to_image(url):
 
 
 # -------- API --------
-@app.route("/verify-face", methods=["POST"])
+@app.route("/api/verify-face", methods=["POST"])
 def verify():
 
     data = request.json
@@ -96,8 +96,9 @@ def verify():
     })
 
 
+# Vercel serverless function handler
+def handler(request):
+    return app(request.environ, lambda status, headers: None)
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
-# if __name__ == "__main__":
-#     port = int(os.environ.get("PORT", 5000))
-#     app.run(host="0.0.0.0", port=port)
